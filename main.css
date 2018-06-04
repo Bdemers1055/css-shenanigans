@@ -1,0 +1,15 @@
+body {
+    background-color: salmon;
+}
+h1 {
+    background-color: chartreuse;
+    color: blueviolet !important;
+    font-size: 72px;
+}
+ul {
+    background-color: tomato;
+    color: silver;
+}
+ul > li:nth-child(1) {
+    color: forestgreen;
+}
