@@ -1,15 +1,21 @@
 body {
     background-color: salmon;
 }
-h1 {
+.big-green-heading {
     background-color: chartreuse;
-    color: blueviolet !important;
+    color: burlywood;
     font-size: 72px;
 }
 ul {
     background-color: tomato;
     color: silver;
 }
-ul > li:nth-child(1) {
+.font-forestgreen {
     color: forestgreen;
+}
+
+#amazing {
+    border: 5px solid fuchsia;
+    border-radius: 100%;
+    display: block;
 }
